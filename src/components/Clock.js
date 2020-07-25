@@ -26,7 +26,7 @@ class Clock extends React.Component {
 
   render() {
     return (
-      <div style={{display: 'inline-block', }}>
+      <div >
         <h1 style={{display: 'flex', justifyContent: 'center', paddingLeft: '2vw', paddingRight: '2vw', paddingBottom: '1vw', borderStyle: 'solid', borderWidth: '10px', borderColor: '#202020', borderRadius: '8px', color: 'red', fontSize: '8vw', backgroundColor: '#101010'}}>{this.state.date.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit'})}</h1>
       </div>
     );
